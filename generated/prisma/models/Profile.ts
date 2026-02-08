@@ -434,14 +434,6 @@ export type ProfileUncheckedUpdateManyWithoutUserNestedInput = {
   deleteMany?: Prisma.ProfileScalarWhereInput | Prisma.ProfileScalarWhereInput[]
 }
 
-export type NullableIntFieldUpdateOperationsInput = {
-  set?: number | null
-  increment?: number
-  decrement?: number
-  multiply?: number
-  divide?: number
-}
-
 export type ProfileCreateWithoutUserInput = {
   name: string
   age: number
