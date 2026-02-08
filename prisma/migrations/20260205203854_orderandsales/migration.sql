@@ -1,0 +1,12 @@
+-- CreateTable
+CREATE TABLE "Sales" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "prise" INTEGER NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "Order" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "prise" INTEGER NOT NULL
+);

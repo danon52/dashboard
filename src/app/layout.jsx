@@ -25,7 +25,7 @@ export default async function RootLayout({ children }) {
           {children}
         </main>
 
-        <div className="text-2xl w-30 h-auto -ml-10 mt-10 border-r  ">
+        {/* <div className="text-2xl w-30 h-auto -ml-10 mt-10 border-r  ">
           <p className="mt-10">Products</p>
           <Link href="/">
             <p className="mt-10">Prising</p>
@@ -42,12 +42,12 @@ export default async function RootLayout({ children }) {
             </p>
             <p className="mt-10" >LogOut</p>
           </div>
-        </div>
+        </div> */}
 
 
 
 
-        <footer className="mt-10 border-t pt-5 border-t-green-500">
+        <footer >
 
         </footer>
 
