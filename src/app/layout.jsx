@@ -15,7 +15,7 @@ export default async function RootLayout({ children }) {
             <div className="flex items-center justify-between">
               {/* Logo */}
               <div>
-                <Link href="/" className="flex items-center space-x-1">
+                <Link href="/dashboard" className="flex items-center space-x-1">
                   <span className="text-2xl font-bold text-blue-600">Dash</span>
                   <span className="text-2xl font-bold text-gray-800">Board</span>
                 </Link>
@@ -45,8 +45,7 @@ export default async function RootLayout({ children }) {
                 {/* Notifications */}
                 <Link
                   href="/about"
-                  className="relative p-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-                >
+                  className="relative p-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                   </svg>
@@ -81,8 +80,7 @@ export default async function RootLayout({ children }) {
                     <>
                       <Link
                         href="/api/auth/signin"
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                      >
+                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                         Войти
                       </Link>
                       <Link
@@ -125,7 +123,7 @@ export default async function RootLayout({ children }) {
                   <span className="text-xl font-bold text-blue-600">Dash</span>
                   <span className="text-xl font-bold text-gray-800">Board</span>
                 </Link>
-                <p className="text-gray-600 text-sm mt-2 text-xl">© все стили что вы видеите переписынны (у меня был ужас...)с DeepSeek мне <br />просто было лень делать их да и поздно уже было , а все остально было <br /> написанно моими руками  </p>
+                <p className="text-gray-600 text-sm mt-2 text-xl">© Все права защищены и конфиденциальны  </p>
               </div>
 
               <div className="flex space-x-6">
